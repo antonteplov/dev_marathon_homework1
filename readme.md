@@ -5,8 +5,16 @@
 Написан для работы в  Linux (debian).
 
 
-```Файл main.py -  сам скрипт
-	config.conf - файл конфига, используется стандартнаябиблиотека configparser
-	requirements.txt - файл с нужными модулями питона, которые надо будет доставить.
-	
+```
+Файл main.py -  сам скрипт
+config.conf - файл конфига, используется стандартнаябиблиотека configparser
+requirements.txt - файл с нужными модулями питона, которые надо будет доставить.
+```
+how-to Install
+=======================
+Простой набор комманд для установки питона + pip
+```
+sudo apt update
+sudo apt install python3 python3-pip
+pip install -r requirements.txt
 ```
